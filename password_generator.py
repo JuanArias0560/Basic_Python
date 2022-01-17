@@ -1,6 +1,6 @@
-import random
+import random                                                      # Generador de contraseñas aleatorias
 
-def password_generator():
+def password_generator():                                          # Funcion donde se almacena las listas
     capital_letter= ['A','B','C','D','E','F','G']
     lower= ['a','b','c','d','e','f','g']
     symbols=['!', '#' , '$' , '&' , '/' ,'(',')']

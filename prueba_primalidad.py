@@ -1,4 +1,4 @@
-def es_primo(numero):
+def es_primo(numero):                                       # comprobar si el numero es primo
     contador=0
     for i in range (1, numero + 1 ):
         if i == 1 or i == numero:

@@ -1,4 +1,4 @@
-def palindromo (palabra):
+def palindromo (palabra):                     # Verificacion de que una palabra sea un palindromo con uso de funciones
     palabra = palabra.replace(' ','')
     palabra=palabra.lower()
     palabra_inveritida = palabra[::-1]

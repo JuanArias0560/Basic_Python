@@ -1,5 +1,5 @@
-# def imprimir_mensaje():
-#     print ("mensaje especial : ")
+# def imprimir_mensaje():                                   # Ejemplo basico de funciones
+#     print ("mensaje especial : ")                         
 #     print ("Estoy aprendiendo a usar funciones ")    
 
 
@@ -7,7 +7,7 @@
 # imprimir_mensaje()
 # imprimir_mensaje()
 
-# def conversacion (mensaje):
+# def conversacion (mensaje):               # Ejemplo de funcione combinadas multiples opciones
 #     print("Hola")
 #     print("Como estas ")
 #     print(mensaje)
@@ -15,7 +15,7 @@
 
 
 
-# opcion = int(input(" Elige una opcion (1,2,3)"))
+# opcion = int(input(" Elige una opcion (1,2,3)")) 
 # if opcion ==1:
 #     conversacion("elegiste la opcion 1")
 # elif opcion==2 :
@@ -25,7 +25,7 @@
 # else:
 #     print("Escribe la opcion correcta ")
 
-def suma(a,b):
+def suma(a,b):                          # Ejemplo de funcion con varios valores 
     print("Suma de los dos numeros")
     resultados = a+b
     return resultados

@@ -1,4 +1,4 @@
-def conversor(tipo_pesos, valor_dolar):
+def conversor(tipo_pesos, valor_dolar):                                     #Conversor de moneda
     pesos = float (input("¿cuantos pesos " + tipo_pesos + " tienes?: "))
     valor_dolar
     dolares = pesos / valor_dolar
@@ -6,7 +6,7 @@ def conversor(tipo_pesos, valor_dolar):
     dolares = str(dolares)
     print("Tienes $" + dolares + " dolares")
 
-menu = """"
+menu = """"                                                                 
 Bienvenido al conversor de monedas :) 
 
 1- Pesos Colombianos 
