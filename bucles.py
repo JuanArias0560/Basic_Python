@@ -3,7 +3,7 @@
 
 
 def run():
-    LIMITE = 1000000                                                              # Mayusculas es igual a una constante
+    LIMITE = 200000000                                                     # Mayusculas es igual a una constante
 
     contador = 0 
     potencia_2 = 2**contador 
